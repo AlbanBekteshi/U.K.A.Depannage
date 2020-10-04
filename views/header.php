@@ -14,16 +14,28 @@
         <title>U.K.A. Dépannage</title>
     </head>
 </head>
+
 <header id="header">
     <nav>
-        <div class="navbar navbar-inverse">
+        <div class="navbar navbar-custom">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.php?action=homepage">Accueil</a>
+                </div>
+                <ul class="nav navbar-nav">
                     <a class="navbar-brand" href="index.php?action=homepage">Notre mission</a>
                     <a class="navbar-brand" href="index.php?action=homepage">Contact</a>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <a class="navbar-brand">En panne? 0477 50 93 27</a>
-                </div>
+                </ul>
             </div>
     </nav>
 </header>
+
+<!-- A essayé de mettre dans le css -->
+<style>
+    .navbar-custom{
+        background-color: rgba(0,0,0,0.17);
+    }
+</style>
