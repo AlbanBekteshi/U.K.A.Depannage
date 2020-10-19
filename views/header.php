@@ -18,6 +18,7 @@
                 width: 100%;
                 height: 300px;
             }
+
         </style>
 
         <!-- Bootstrap CSS -->
@@ -32,20 +33,17 @@
 <header id="header">
     <nav>
         <div class="navbar navbar-custom">
-            <div class="container-fluid">
+
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.php?action=homepage">Accueil</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <a class="navbar-brand" href="index.php?action=homepage">Notre mission</a>
-                </ul>
                 <ul class="nav navbar-nav">
                     <a class="navbar-brand" href="index.php?action=homepage">Contact</a>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <a class="navbar-brand">En panne? 0477 50 93 27</a>
                 </ul>
-            </div>
+
     </nav>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
