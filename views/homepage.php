@@ -4,12 +4,27 @@
     <title>Accueil</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
 <body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?php echo CHEMIN_VUES ?>images/dep1.jpeg" alt="Los Angeles" width="1110" height="1">
+        </div>
+        <div class="carousel-item">
+            <img src="<?php echo CHEMIN_VUES ?>images/dep4.jpeg" alt="Chicago" width="1100" height="1">
+        </div>
+
+    </div>
+</div>
+
 <h1> Sociéte de dépannage auto</h1>
 <p>U.K.A DEPANNAGE est une société de dépannage et remorquage de véhicules active partout en Belgique. Grâce à son expérience et son professionnalisme, le personnel de la société mettra à votre disposition toutes ses compétences afin de vous conseiller et d'exécuter les solutions qui répondront à vos situations de panne.</p>
 <div class="container-fluide">
@@ -40,6 +55,10 @@
 <style>
     h1.a, p.a {
         text-align: center;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
     }
 
 </style>

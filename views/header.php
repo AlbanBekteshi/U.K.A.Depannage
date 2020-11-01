@@ -12,14 +12,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <style>
-            /* Make the image fully responsive */
-            .carousel-inner img {
-                width: 100%;
-                height: 300px;
-            }
-
-        </style>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -45,21 +37,7 @@
                 </ul>
 
     </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
 
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="<?php echo CHEMIN_VUES ?>images/dep1.jpeg" alt="Los Angeles" width="10" height="10">
-            </div>
-            <div class="carousel-item">
-                <img src="<?php echo CHEMIN_VUES ?>images/dep4.jpeg" alt="Chicago" width="500" height="500">
-            </div>
-
-        </div>
-
-
-    </div>
 </header>
 
 <!-- A essayé de mettre dans le css -->
