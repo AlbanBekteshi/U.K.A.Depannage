@@ -30,10 +30,10 @@
                     <a class="navbar-brand" href="index.php?action=homepage">Accueil</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <a class="navbar-brand" href="index.php?action=homepage">Contact</a>
+                    <a class="navbar-brand" href="index.php?action=homepage/#contact">Contact</a>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <a class="navbar-brand">En panne? 0477 50 93 27</a>
+                    <a class="navbar-brand" href="tel:0032492310933">En panne? +32 492 31 09 33</a>
                 </ul>
 
     </nav>
@@ -43,6 +43,10 @@
 <!-- A essayé de mettre dans le css -->
 <style>
     .navbar-custom{
-        background-color: rgba(0,0,0,0.17);
+        background-color: lightgrey;
+    }
+    .navbar-brand{
+        font-family: Bahnschrift;
+        font-weight: bold;
     }
 </style>

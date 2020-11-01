@@ -3,14 +3,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6" >
-                    <h1>U.K.A. Dépannage</h1>
-                    Se tient à votre disposition pour vous dépanner : voiture, moto, camionnette, enlèvement d'épave, ouverture de porte,... K M R vous offre également un service réparation et mécanique : remplacement de batterie, changement de pneu, erreur de carburant,...
+                    <h1 class="a">U.K.A. Dépannage</h1>
+                    <p class="b">Se tient à votre disposition pour vous dépanner : voiture, moto, camionnette, enlèvement d'épave, ouverture de porte,... UKA vous offre également un service réparation et mécanique : remplacement de batterie, changement de pneu, erreur de carburant,...
                 </div>
                 <div class="col-sm-6" >
-                    <h1> Suivez-nous</h1>
-                    <a href="https://www.facebook.com/" class="fa fa-facebook"> Facebook</a>
+                    <h1 class="a"> Suivez-nous</h1>
+                    <p class="a"><a href="https://www.facebook.com/" class="fa fa-facebook"> Facebook</a></p>
                     <div></div>
-                    <a href="https://instagram.com/uka_depannage?igshid=1ke7zun5t6f03" class="fa fa-instagram"> Instagram</a>
+                    <p class="a"><a href="https://instagram.com/uka_depannage?igshid=1ke7zun5t6f03" class="fa fa-instagram"> Instagram</a></p>
                 </div>
 
             </div>
@@ -21,6 +21,17 @@
         .container-fluid{
             background-color: rgba(0,0,0,0.17);
         }
+        h1.a, p.a {
+            text-align: center;
+            font-family: Bahnschrift ;
+
+        }
+        p.b {
+            text-align: justify;
+            font-family: Bahnschrift ;
+
+        }
+
 
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
